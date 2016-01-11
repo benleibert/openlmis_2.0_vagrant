@@ -25,7 +25,7 @@ sudo apt-get install -y gradle-2.3
 
 #Install node.js
 curl -sL https://deb.nodesource.com/setup_0.12 | sudo bash -
-sudo apt-get install -y nodejs
+sudo apt-get install -y nodejs npm
 
 #Clone repo and resolve submodule dependencies
 git clone https://github.com/openlmis/open-lmis.git -b 2.0 --single-branch
