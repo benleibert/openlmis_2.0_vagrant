@@ -28,7 +28,7 @@ curl -sL https://deb.nodesource.com/setup_0.12 | sudo bash -
 sudo apt-get install -y nodejs nodejs-legacy npm
 
 #Clone repo and resolve submodule dependencies
-git clone https://github.com/openlmis/open-lmis.git -b 2.0 --single-branch
+git clone https://github.com/openlmis/open-lmis.git -b dev --single-branch
 cd open-lmis
 git submodule init
 git submodule update
